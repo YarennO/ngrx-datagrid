@@ -1,0 +1,32 @@
+input {
+
+  border-radius: 34px;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+.save-btn {
+  background-color: #744BFC;
+  color: white;
+  border-radius: 34px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  height: 10px;
+  border:none;
+
+}
+
+.cancel-btn {
+  background-color: #F5F7FF;
+  color: #744BFC;
+  border-radius: 34px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  height: 10px;
+  border:none;
+  margin-right: 1rem;
+}

@@ -1,27 +1,26 @@
-# NgrxResponsiveDatagrid
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+# NGRX Responsive Data Grid
 
-## Development server
+Bu projede state management kullanarak bir tabloda create ve read fonksiyonlari olusturdum.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## API Kullanımı
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Projenin gercek bir veritabani baglantisi bulunmamaktadir, bunun icin json-server kullanarak gecici bir db olusturdum.
 
-## Running unit tests
+#### JSON Server'i ayaklandirmak icin bu komutu calistiriyoruz.
+```http
+  json-server --watch db.json
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+#### bu sayfada da db'deki degerleri görebiliriz.
 
-## Running end-to-end tests
+```http
+http://localhost:3000/socialMediaData
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  

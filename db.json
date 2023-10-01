@@ -1,0 +1,70 @@
+{
+  "socialMediaData": [
+    {
+      "id": "65088410275d23ccd4609e6e",
+      "link": "https://www.instagram.com/mobilerast/",
+      "name": "instagram",
+      "description": "We'll help you to finish your development project successfully."
+    },
+    {
+      "id": "650884104b00aee6d67c714e",
+      "link": "tr.linkedin.com/company/rastmobile",
+      "name": "linkedin",
+      "description": "Hire vetted developers from Rast Mobile to scale up your tech projects."
+    },
+    {
+      "id": "650884107de47205bdbf1512",
+      "link": "behance.net/rastmobile",
+      "name": "behance",
+      "description": "Software Development Agency Rast Mobile Information Technology Ltd."
+    },
+    {
+      "id": "650884106b469775efedde38",
+      "link": "twitter.com/rastmobile",
+      "name": "twitter",
+      "description": "Software Development Agency Rast Mobile Information Technology Ltd."
+    },
+    {
+      "id": "909cf466-a58b-4cfb-a373-c4118d019703",
+      "link": "link1",
+      "name": "name1",
+      "description": "description1"
+    },
+    {
+      "id": "95e96755-25bf-44cb-b6ad-ce3a03d750c4",
+      "link": "link2",
+      "name": "name2",
+      "description": "desc2"
+    },
+    {
+      "id": "7becaaa1-81c7-4eb7-bbe5-0ca93897fc0b",
+      "link": "link3",
+      "name": "name3",
+      "description": "desc3"
+    },
+    {
+      "id": "f3406431-0b4b-4c8f-a847-66f2f07eb18b",
+      "link": "link3",
+      "name": "name3",
+      "description": "desc3"
+    },
+    {
+      "id": "0b6584a8-2af8-4b33-ad52-c90d127c9b86",
+      "link": "link4",
+      "name": "name4",
+      "description": "desc4"
+    },
+    {
+      "id": "24fb9da8-1562-4338-9d84-1b0f380bcaff",
+      "link": "link5",
+      "name": "name5",
+      "description": "desc5"
+    },
+    {
+      "id": "dc3001b3-a5ae-48f0-a0b0-5c354a353d79",
+      "link": "link7",
+      "name": "ad7",
+      "description": "desc7"
+    }
+  ]
+}

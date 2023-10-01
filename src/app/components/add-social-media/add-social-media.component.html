@@ -1,0 +1,35 @@
+<div>
+  <form [formGroup]="socialMediaForm">
+    <div class="mb-3">
+      <label for="link">Sosyal Medya Linki</label>
+      <input class="form-control input-text" formControlName="link" id="link" required type="text">
+    </div>
+    <div class="mb-3">
+      <label for="name">Sosyal Medya Adı</label>
+      <input class="form-control input-text" formControlName="name" id="name" required
+             type="text">
+    </div>
+    <div class="mb-3">
+      <label for="description">Açıklama</label>
+      <input class="form-control input-text" formControlName="description" id="description" required type="text">
+    </div>
+  </form>
+</div>
+<div style="display: flex; justify-content: right; margin-right: 1rem;">
+  <button
+    (click)="cancel()"
+    class="cancel-btn"
+    pButton>Vazgeç
+  </button>
+  <button
+    (click)="save()"
+    class="save-btn"
+    [disabled]="socialMediaForm.invalid"
+    [pTooltip]="socialMediaForm.invalid ? 'Eksik inputlar oldugu icin kaydet islemi yapamazsiniz.' : 'Kaydet'"
+    pButton
+  >
+    Kaydet
+  </button>
+
+
+</div>

@@ -1,0 +1,45 @@
+<app-navbar></app-navbar>
+
+<div class="container" style="margin-top: 3rem;background: linear-gradient(180deg, #EFF2FF -30.56%, rgba(232, 236, 255, 0) 135.85%);
+display: flex; flex-direction: column; padding: 1rem">
+  <div class="col-sm-10" style="margin-bottom: 1rem; display: flex; justify-content: space-between; width: 100%;">
+    <div class="form-group">
+      <input (input)="filterData(searchText)" (keyup.enter)="filterData(searchText)" [(ngModel)]="searchText"
+             class="form-control" id="searchInput"
+             placeholder="Search objects..." style="border-radius: 39px; padding-left: 30px;" type="text">
+
+    </div>
+    <button (click)="openAddSocialMediaDialog()" class="btn" style="background-color: #744BFC; color: white"
+            type="button">
+      <i class="bi bi-plus"></i>{{'Yeni Hesap Ekle'}}
+    </button>
+  </div>
+
+
+  <dx-data-grid [dataSource]="searchText ? filteredData : socialMediaList " [rowAlternationEnabled]="true" [showRowLines]="true"
+  >
+    <dxo-selection mode="single" selectAllMode="false"></dxo-selection>
+
+    <dxi-column
+      *ngFor="let column of columns"
+      [allowSorting]="column.allowSorting"
+      [caption]="column.caption"
+      [dataField]="column.field">
+    </dxi-column>
+    <dxo-paging [pageSize]="4" style="background-color: #744BFC !important;"></dxo-paging>
+    <dxo-pager
+      [allowedPageSizes]="allowedPageSizes"
+      [displayMode]="displayMode"
+      [showNavigationButtons]="showNavButtons"
+      [showPageSizeSelector]="showPageSizeSelector"
+      [visible]="true"
+    >
+    </dxo-pager>
+
+  </dx-data-grid>
+
+
+</div>
+
+
+
